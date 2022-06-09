@@ -55,5 +55,6 @@ jobs:
         uses: Azure/k8s-deploy@v3.1
         with:
           images: frafaelptu/kube-news:latest
-          manifests: K8s/deployment.yaml
+          manifests: |
+            src/K8s/deployment.yaml
       
