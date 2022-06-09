@@ -37,5 +37,5 @@ jobs:
           push: true
           tags: |
             frafaelptu/kube-news:latest
-            frafaelptu/kube-news:${{github.run.number}}
+            frafaelptu/kube-news:${{github.run_number}}
           
